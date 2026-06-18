@@ -1,0 +1,47 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Secrets / env ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- IDEs ----
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+out/
+
+# ---- Java / Gradle (chatbot-api) ----
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+bin/
+
+# ---- Node / frontend (chatbot-ui) ----
+node_modules/
+dist/
+.next/
+.nuxt/
+.vite/
+coverage/
+*.local
+
+# ---- Playwright (chatbot-ui e2e) ----
+test-results/
+playwright-report/
+blob-report/
+.playwright-mcp/
+/playwright/.cache/
